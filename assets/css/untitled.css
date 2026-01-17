@@ -1,0 +1,47 @@
+.slider-container {
+}
+
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+  background-color: #000000;
+}
+
+.slider-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: slide 47s linear infinite;
+  padding-bottom: 0.4rem;
+}
+
+.testimonial {
+}
+
+.slider-content h1 {
+  display: inline-block;
+  margin: 0;
+  font-size: 10rem;
+  color: #fff;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.more-info {
+  display: flex;
+  align-items: center;
+}
+
+.custom-button {
+  margin-left: auto;
+}
+
+hr {
+}
+
